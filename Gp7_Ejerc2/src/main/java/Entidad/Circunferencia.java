@@ -32,17 +32,18 @@ public class Circunferencia {
     public void crearCircunsferencia() {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese el radio");
-        radio = leer.nextDouble();
+        setRadio(leer.nextDouble());
+        
 
     }
-
+        // Metodo para calcular el area
     public double area() {
-        double area = Math.pow((Math.PI * radio), 2);
+        double area = (Math.PI * Math.pow(getRadio(),2));
         return area;
     }
 
     public double perimetro() {
-        double perimetro = 2*Math.PI*radio;
+        double perimetro = 2*Math.PI*getRadio();
         return perimetro;
     }
     

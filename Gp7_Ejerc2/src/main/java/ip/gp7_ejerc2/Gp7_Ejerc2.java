@@ -16,9 +16,9 @@ public class Gp7_Ejerc2 {
         
         Circunferencia c1= new Circunferencia();
         
-       c1.crearCircunsferencia();
-        System.out.println("El area es: "+c1.area());
-        System.out.println("El perímetro es: "+c1.perimetro());
+        c1.crearCircunsferencia();
+        System.out.println("El area es: "+ c1.area());
+        System.out.println("El perímetro es: "+ c1.perimetro());
         
     }
 }
