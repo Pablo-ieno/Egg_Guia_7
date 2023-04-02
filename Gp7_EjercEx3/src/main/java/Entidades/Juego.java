@@ -32,7 +32,7 @@ public class Juego {
         int juegosGanados = 0;
         for (int i = 0; i < 5; i++) {
 
-            setNumSecreto((int) (Math.random() * 100 + 1));
+            setNumSecreto((int) (Math.random() * 50 + 1));
             System.out.println("Jugador 2 tiene 5 intentos para adivinar el número Secreto: ");
             boolean acierto = false;
             
